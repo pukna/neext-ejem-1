@@ -8,7 +8,7 @@ const ArticleDetails = ({ article }) => {
   return (
     <div>
       <h1>{article.title}</h1>
-      <div>{article.user_data.name}</div>
+      {/*<div>{article.user_data.name}</div>*/}
       <p>{article.body}</p>
 
       <Comments articleId={article.id} />
